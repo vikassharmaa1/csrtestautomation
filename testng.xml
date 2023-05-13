@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CSR Test Automation">
+
+	<listeners>
+		<listener class-name="com.csr.utils.ListenersImplementation" />
+
+	</listeners>
+
+	<!-- <test thread-count="1" name="Login Test Suites">
+		<classes>
+			<class name="com.csr.testsuites.LoginTestSuite" />
+		</classes>
+	</test> -->
+
+	<!-- <test thread-count="1"
+		name="Create Customer and Edit Customer Profile Test Suite">
+		<classes>
+			<class name="com.csr.testsuites.AddCustomerTestSuite" />
+			<class name="com.csr.testsuites.FindCustomerTestSuite" />
+			<class name="com.csr.testsuites.IdentityTestSuite" />
+			<class name="com.csr.testsuites.DetailsTestSuite" />
+			<class name="com.csr.testsuites.AddressTestSuite" />
+		</classes>
+	</test> -->
+
+	<!-- <test thread-count="1" name="Orders Coupons and Subscription Test Suites">
+		<classes>
+			<class name="com.csr.testsuites.OrdersTestSuite" />
+			<class name="com.csr.testsuites.CouponsTestSuite" />
+			<class name="com.csr.testsuites.SubscriptionTestSuite" />
+		</classes>
+	</test> -->
+
+	<test thread-count="1" name="Find An Order Test Suite">
+		<classes>
+			<class name="com.csr.testsuites.FindOrderTestSuite" />
+		</classes>
+	</test>
+
+	<!-- <test thread-count="1" name="Cancel An Order Test Suite">
+		<classes>
+			<class name="com.csr.testsuites.CancleOrderTestSuite" />
+		</classes>
+	</test>
+
+<test thread-count="1" name="Bulk Cancellation Test Suite">
+		<classes>
+			<class name="com.csr.testsuites.BulkCancellationTestSuite" />
+		</classes>
+	</test> -->
+
+	<!-- <test thread-count="1" name="Compare Accounts Test Suite">
+		<classes>
+			<class name="com.csr.testsuites.CompareAccountsTestSuite" />
+		</classes>
+	</test> -->
+
+	<!-- <test thread-count="1" name="Miscellanious Test Suite">
+		<classes>
+			<class name="com.csr.testsuites.BusinessCustomerRegression" />
+			<class name="com.csr.testsuites.CreateOrder" />
+		</classes>
+	</test> -->
+</suite> <!-- Suite -->

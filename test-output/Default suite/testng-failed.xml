@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.csr.testsuites.FindCustomerTestSuite">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="verify_validations" invocation-numbers="0 1 2 3 4 5 6"/>
+          <include name="tearDown"/>
+          <include name="verify_addressFields_Verifications"/>
+          <include name="verify_validations_NonAddressFields"/>
+        </methods>
+      </class> <!-- com.csr.testsuites.FindCustomerTestSuite -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
